@@ -17,17 +17,16 @@ Welcome to the official repository for the **Cognifyz Technologies Python Develo
 ---
 | Level | Task No. | Task Name                       | Status     |
 |-------|----------|----------------------------------|------------|
-| 1     | 1        | String Reversal                  | ⬜ Pending |
-| 1     | 2        | Temperature Conversion           | ⬜ Pending |
-| 1     | 3        | Email Validator                  | ⬜ Pending |
-| 1     | 4        | Calculator                       | ⬜ Pending |
-| 1     | 5        | Palindrome Checker               | ⬜ Pending |
-| 1     | 6        | Guessing Game                    | ⬜ Pending |
-| 2     | 1        | Number Guesser                   | ⬜ Pending |
-| 2     | 2        | Password Strength Checker        | ⬜ Pending |
-| 2     | 3        | Fibonacci Sequence               | ⬜ Pending |
-| 2     | 4        | File Manipulation                | ⬜ Pending |
-| 2     | 5        | Web Scraper                      | ⬜ Pending |
-| 3     | 1        | Data Visualization Tool          | ⬜ Pending |
-| 3     | 2        | Automate a Task                  | ⬜ Pending |
-| 3     | 3        | Final Showcase & LinkedIn Video  | ⬜ Pending |
+| 1     | 1        | String Reversal                  | ✅ Completed |
+| 1     | 2        | Temperature Conversion           | ✅ Completed |
+| 1     | 3        | Email Validator                  | ✅ Completed |
+| 1     | 4        | Calculator                       | ✅ Completed |
+| 1     | 5        | Palindrome Checker               | ✅ Completed |
+| 2     | 1        | Guessing Game                    | ✅ Completed |
+| 2     | 2        | Number Guesser                   | ✅ Completed |
+| 2     | 3        | Password Strength Checker        | ✅ Completed |
+| 2     | 4        | Fibonacci Sequence               | ⬜ Pending |
+| 2     | 5        | File Manipulation                | ⬜ Pending |
+| 3     | 1        | Web Scraper                      | ⬜ Pending |
+| 3     | 2        | Data Visualization Tool          | ⬜ Pending |
+| 3     | 3        | Automate a Task                  | ⬜ Pending |
