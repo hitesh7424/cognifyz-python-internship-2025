@@ -25,7 +25,7 @@ Welcome to the official repository for the **Cognifyz Technologies Python Develo
 | 2     | 1        | Guessing Game                    | ✅ Completed |
 | 2     | 2        | Number Guesser                   | ✅ Completed |
 | 2     | 3        | Password Strength Checker        | ✅ Completed |
-| 2     | 4        | Fibonacci Sequence               | ⬜ Pending |
+| 2     | 4        | Fibonacci Sequence               | ✅ Completed |
 | 2     | 5        | File Manipulation                | ⬜ Pending |
 | 3     | 1        | Web Scraper                      | ⬜ Pending |
 | 3     | 2        | Data Visualization Tool          | ⬜ Pending |
