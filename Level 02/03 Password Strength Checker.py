@@ -41,7 +41,8 @@ def password_strength_checker(password: str):
     return marks, remarks
 
 
-password = input("Enter your password: ")
+password = input()
+# password = input("Enter your password: ")
 
 marks, remarks = password_strength_checker(password)
 

@@ -29,7 +29,7 @@ def email_validator(email: str) -> bool:
     return True
 
 
-# input_email = input("Enter the email: ")
-input_email = input()
+input_email = input("Enter the email: ")
+# input_email = input()
 
-print(email_validator(input_email))
+print("Valid" if email_validator(input_email) else "Not Valid")

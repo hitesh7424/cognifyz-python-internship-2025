@@ -33,12 +33,20 @@ def fibonacci(n: int) -> list:
     return sequence
 
 
-print(f"-1 > {fibonacci(-1)}")
-print(f" 0 > {fibonacci(0)}")
-print(f" 1 > {fibonacci(1)}")
-print(f" 2 > {fibonacci(2)}")
-print(f" 3 > {fibonacci(3)}")
-print(f" 4 > {fibonacci(4)}")
-print(f" 5 > {fibonacci(5)}")
-print(f" 7 > {fibonacci(7)}")
-print(f"10 > {fibonacci(10)}")
+# print(f"-1 > {fibonacci(-1)}")
+# print(f" 0 > {fibonacci(0)}")
+# print(f" 1 > {fibonacci(1)}")
+# print(f" 2 > {fibonacci(2)}")
+# print(f" 3 > {fibonacci(3)}")
+# print(f" 4 > {fibonacci(4)}")
+# print(f" 5 > {fibonacci(5)}")
+# print(f" 7 > {fibonacci(7)}")
+# print(f"10 > {fibonacci(10)}")
+
+num = int(input("Enter a number: "))
+
+print(f"Fibinacci Series upto {num}")
+for i in fibonacci(num):
+    print(i, end=" ")
+
+print()

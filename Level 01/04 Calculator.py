@@ -34,7 +34,7 @@ def calc(a, b, o):
         return "Error: Invalid operator entered."
 
     # Perform the operation using the function mapped in the dictionary
-    return ops[o](a, b)
+    return round(ops[o](a, b), 4)
 
 
 # Test cases to make sure the function works correctly
@@ -59,7 +59,7 @@ try:
     answer = calc(a, b, o)
 
     # Print the result rounded to 4 decimal places
-    print(f"{a} {o} {b} = {round(answer, 4)}")
+    print(f"{a} {o} {b} = {answer}")
 
 # Handle invalid numeric input
 except ValueError:
