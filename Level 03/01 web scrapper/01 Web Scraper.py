@@ -9,13 +9,14 @@ techniques and handling HTML/XML data.
 """
 
 # Description:
-# This script scrapes the IMDb Top 250 movies page, extracts details for each movie 
-# (such as rank, title, release year, duration, parental rating, IMDb rating, and IMDb ID), 
-# and saves the results in a pandas DataFrame. It uses requests to fetch the HTML, BeautifulSoup 
+# This script scrapes the IMDb Top 250 movies page, extracts details for each movie
+# (such as rank, title, release year, duration, parental rating, IMDb rating, and IMDb ID),
+# and saves the results in a pandas DataFrame. It uses requests to fetch the HTML, BeautifulSoup
 # to parse and extract data, and pandas for tabular representation.
 
 import requests
 from bs4 import BeautifulSoup
+
 
 def fetch_and_save_html(url, path):
     """
@@ -24,7 +25,7 @@ def fetch_and_save_html(url, path):
         url (str): The URL of the webpage to fetch.
         path (str): The file path where the HTML content will be saved.
     """
-    
+
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
     }
@@ -49,7 +50,7 @@ def extract_movie_details(movie):
             - imdb_rating (float): The IMDb rating of the movie.
             - imdb_id (str): The IMDb ID of the movie.
     """
-    
+
     # Extract the index and title from the movie header
     title_block = movie.h3.text.strip()
     movie_rank = int(title_block.split(".")[0].strip())
@@ -84,7 +85,7 @@ imdb_url = "https://www.imdb.com/chart/top/"
 html_save_path = "data/sample.html"
 
 # Fetch and save the IMDb Top 250 page
-fetch_and_save_html(imdb_url, html_save_path)
+# fetch_and_save_html(imdb_url, html_save_path)
 
 # Read the saved HTML file
 with open(html_save_path, "r", encoding="utf-8") as html_file:
@@ -106,6 +107,19 @@ import pandas as pd
 
 data = [extract_movie_details(movie) for movie in movies]
 
-df = pd.DataFrame(data, columns=["Index", "Title", "Year", "Duration", "PG Rating", "IMDB Rating", "IMDB ID"])
+df = pd.DataFrame(
+    data,
+    columns=[
+        "Index",
+        "Title",
+        "Year",
+        "Duration",
+        "PG Rating",
+        "IMDB Rating",
+        "IMDB ID",
+    ],
+)
 # print(df)
-print(df.head())
+print(df.head())  # it will print top 5 movies in formated way
+
+df.to_csv("movie.csv", index=False, encoding="utf-8")
