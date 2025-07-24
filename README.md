@@ -2,8 +2,6 @@
 
 Welcome to the official repository for the **Cognifyz Technologies Python Development Internship – July 2025**. This repository contains the solutions and documentation for the tasks assigned during the internship period.
 
-
-
 ## 🎯 Internship Overview
 
 - **Position:** Python Development Intern  
@@ -11,10 +9,10 @@ Welcome to the official repository for the **Cognifyz Technologies Python Develo
 - **Mode:** Remote  
 - **Company:** [Cognifyz Technologies](https://www.cognifyz.com)  
 
-
-
 ### 📌 Task Progress Table
+
 ---
+
 | Level | Task No. | Task Name                       | Status     |
 |-------|----------|----------------------------------|------------|
 | 1     | 1        | String Reversal                  | ✅ Completed |
@@ -29,4 +27,4 @@ Welcome to the official repository for the **Cognifyz Technologies Python Develo
 | 2     | 5        | File Manipulation                | ✅ Completed |
 | 3     | 1        | Web Scraper                      | ✅ Completed |
 | 3     | 2        | Data Visualization Tool          | ✅ Completed |
-| 3     | 3        | Automate a Task                  | ⬜ Pending |
+| 3     | 3        | Automate a Task                  | ✅ Completed |
