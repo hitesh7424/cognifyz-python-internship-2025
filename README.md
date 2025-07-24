@@ -28,3 +28,8 @@ Welcome to the official repository for the **Cognifyz Technologies Python Develo
 | 3     | 1        | Web Scraper                      | ✅ Completed |
 | 3     | 2        | Data Visualization Tool          | ✅ Completed |
 | 3     | 3        | Automate a Task                  | ✅ Completed |
+
+
+---
+
+Git-Repo: https://github.com/hitesh7424/cognifyz-python-internship-2025
